@@ -1,0 +1,141 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #0c2840;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+}
+.side {
+    position: fixed;
+    top: 0;
+    width: 20%;
+    height: 780px;
+    background-color: rgb(26, 28, 28);
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    height: 35px;
+}
+.ime {
+    display: flex;
+    align-items: center;
+}
+.div2 {
+    display: flex;
+    align-items: center;
+}
+.tekst1 {
+    color: white;
+    font-size: 22px;
+}
+.div3 {
+    height: 35px;
+    width: 200px;
+    background-color: rgba(0, 143, 196, 0.596);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    display: flex;
+    width: 79.7%;
+    margin-left: 20%;
+    margin-top: 35px;
+}
+.tekst2 {
+    color: white;
+    font-family: 'Nunito';
+    font-size: 30px;
+}
+.name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.socials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sh:hover {
+    background-color: rgb(38, 99, 204);
+    transition: 1s;
+    
+}
+.sh {
+    background-color: rgb(55, 55, 55); 
+    padding: 5px; 
+    border-radius: 20px;
+    margin: 5px;
+}
+.more {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.more1 {
+    display: flex;
+    flex-direction: row;
+}
+.more2 {
+    color: rgb(61, 61, 61);
+    font-size: 18px;
+    margin-right: 5px;
+    margin-top: 40px;
+    width: 18px;
+    height: 18px;
+}
+.link2 {
+    text-decoration: none;
+}
+.more3 {
+    color: gray;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+@media only screen and (max-width:800px) {
+    .header {
+        height: 30px;
+    }
+    .img1 {
+        height: 25px;
+    }
+    .div3 {
+        height: 30px;
+        width: 150px;
+    }
+    .tekst1 {
+        font-size: 14px;
+    }
+    .side {
+        display: none;
+      }
+}
+

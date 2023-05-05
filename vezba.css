@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 600px;
+
+}
+.navigation {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+}
+.naziv {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.goto {
+    display: flex;
+    margin-left: 200px;
+}
+.list {
+    display: flex;
+}
+.lista {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.tekst {
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    color: rgb(77, 77, 77);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: solid 1px rgb(99, 99, 99);
+}
+@media only screen and (max-width:800px) {
+    .goto {
+        display: none;
+    }
+    .cards {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width:800px) {
+    .more {
+        display: none;
+    }
+}
+.more {
+    margin-left: 100px;
+}
+.icon {
+    margin: 20px;
+    margin-top: 40px;
+    color: rgb(20, 76, 198);
+    font-size: 30px;
+    display: flex;
+}
+.footer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright {
+    margin-left: 150px;
+    margin-top: px;
+}
+.copy {
+    margin: 5px;
+    color: rgb(81, 81, 81);
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+.icons {
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(20, 76, 198);
+}
+.card:hover {
+    width: 255px;
+    height: 255px;
+    transition-duration: s;
+    margin: 15px;
+}

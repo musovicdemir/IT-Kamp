@@ -1,0 +1,39 @@
+.back {
+    position: relative;
+    background-color: black;
+    width: 715px;
+    height: 400px;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
+.card {
+    left: 14px;
+    background-color: rgba(128, 128, 128, 0.708);
+}
+.card2 {
+    left: 180px;
+    background-color: rgba(109, 108, 3, 0.708);
+}
+.card3 {
+    left: 345px;
+    background-color: rgba(24, 137, 141, 0.708);
+}
+.card4 {
+    left: 510px; 
+    background-color: rgba(151, 32, 32, 0.708);
+}
+.card {
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    margin: 20px;
+    top: 28px;
+}
+.back2 {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 140, 0);
+    z-index: 1;
+}
