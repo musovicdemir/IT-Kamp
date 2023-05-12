@@ -70,3 +70,12 @@
 //         console.log(c,'blok koda')
 //     }
 // }
+var greet_abe = function() {
+    var name = 'Abe';
+  return "Hello, " + name + '!';
+};
+var greet_ben = function() {
+    var name = 'Ben';
+  return "Hello, " + name + '!';
+};
+console.log(greet_ben())
