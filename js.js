@@ -80,9 +80,60 @@
 // };
 // console.log(greet_ben())
 
-function noSpace(x){
-    split = x.split(" ").join("");
-    return split;
-}
+// function noSpace(x){
+//     split = x.split(" ").join("");
+//     return split;
+// }
 
-console.log(noSpace("wea wewa  wwewe  we"))
+// console.log(noSpace("wea wewa  wwewe  we"))
+// function sayHello() {
+//     console.log("Hello Aldin");
+//   }
+  
+//   function helloSomeone() {
+//     console.log("Cao Mehmed");
+//   }
+  
+//   function anotherFunction(nekaFunkcija1, nekaFunkcija2) {
+//     console.log("Cao Dzenis");
+//     console.log("Cao Redzi");
+//     console.log("prekid");
+//     nekaFunkcija1();
+//     nekaFunkcija2();
+//     console.log("prekid");
+//     console.log("Cao Tajra");
+//   }
+
+//   console.log(anotherFunction)
+
+const car = {
+  marka: "VW",
+  serija: "5",
+  godina: "2008",
+  vlasnici: [
+    {
+      ime: "Demir",
+      prezime: "Musovic",
+    },
+    {
+      ime: "Demir2",
+      prezime: "Musovic2"
+    }
+  ],
+  godinaA () {
+    console.log("godina:" + car.godina);
+  }
+};
+
+car.godinaA()
+
+console.log(car.vlasnici)
+
+const nasNiz = car.vlasnici;
+const imanNiz = nasNiz.map((el) => {
+  return {
+    ime: el.ime,
+  }
+});
+
+console.log(imanNiz)
