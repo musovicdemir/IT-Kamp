@@ -257,3 +257,53 @@
 // });
 
 // console.log(imanNiz)
+
+// const nasCustomObjekat = {
+//     odeljenje: "3-10",
+//     dukserica: "zelena",
+//     ja: "ne znam",
+//     godine: 30,
+//     brojLaptopova: 9,
+// };
+
+// const nasCustomObjekat2 = {
+//     odeljenje: "3-10",
+//     dukserica: "zelena",
+//     ja: "ne znam",
+//     godine: 40,
+//     brojLaptopova: 9,
+// };
+
+// function ourFirstCallFunction(argumentFirst, argumentSecond) {
+//     console.log(
+//         `${argumentFirst} ima ${this.godine} godina i ${argumentSecond} mu je ${this.dukserica}`
+//     )
+// }
+
+// ourFirstCallFunction.call(nasCustomObjekat, "Aldin","kapa");
+
+// ourFirstCallFunction.apply(nasCustomObjekat, ["aldin","kapa"])
+
+// const bindFunkcija = ourFirstCallFunction.bind(
+//     nasCustomObjekat2,
+//     "bronja",
+//     "kapa"
+// );
+
+// const myCar = {
+//     marka: "BMW",
+//     godina: "2011",
+//     gorivo: "dizel",
+//     preso: "300 000 km",
+//     boja: "siva",
+//     brzina: "brz",
+// }
+
+// function callFunction(firstArg,secondArg) {
+//     console.log(
+//         `${this.marka} ${firstArg} ${this.godina} ${secondArg} i presao je ${this.preso} i mnogo je ${this.brzina}`
+//     )
+// };
+
+// callFunction.call(myCar,"je", "godiste");
+
