@@ -307,22 +307,65 @@
 
 // callFunction.call(myCar,"je", "godiste");
 
-let a = 10;
+// let a = 10;
 
-function firstA() {
-  let b = 5;
-  console.log(b);
+// function firstA() {
+//   let b = 5;
+//   console.log(b);
+// }
+
+// function secondA() {
+//   let b = 3;
+//   console.log(b);
+// }
+
+// function lastA() {
+//   console.log(a);
+// }
+
+// firstA();
+// secondA();
+// lastA();
+
+// const prvaMatrica = [
+//   [20,12,25],
+//   [10,222,7],
+//   [99,33,46],
+// ];
+
+// for (let i = 0; i < prvaMatrica.length; i++) {
+//   console.log(prvaMatrica[i]);
+//   for ( let j = 0; j < prvaMatrica[i].length; j++) {
+//     prvaMatrica[i][j] % 2 === 0 ? console.log("Paran broj") : console.log("Neparan broj");
+//   }
+// }
+
+// const classAges = [17,17,16,21,23,16,25,20];
+
+// const sumAges = classAges.reduce((accumulator, value) => {
+//   return accumulator + value
+// });
+
+// console.log(sumAges)
+
+// console.log(sumAges / classAges.length)
+
+// const miles = [502.8, 120.5, 350.6, 205.2, 100, 98, 115, 9000, 53];
+
+// const milesSum = miles.reduce((accumulator, value) => {
+//   return accumulator + value
+// });
+// const mileTokm = milesSum * 1.6;
+// console.log(mileTokm)
+
+// console.log(mileTokm / miles.length)
+
+let count = 0;
+let str = "MAMA ima momu";
+let query = "m";
+for(let i = 0;i < str.length; i++) {
+    if( str[i] === query ) {
+        count++;
+    }
 }
-
-function secondA() {
-  let b = 3;
-  console.log(b);
-}
-
-function lastA() {
-  console.log(a);
-}
-
-firstA();
-secondA();
-lastA();
+console.log(count)
